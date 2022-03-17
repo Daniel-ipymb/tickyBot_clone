@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #40596b;
+  
+}
+
+body {
+  font-family: 'Signika', sans-serif;
+  height: 100vh;
+  line-height: 1.5;
+  color: rgba(0,0,0,0.75);
+  font-weight: 300;
+}
+
+
+.container {
+  font-size: 1.25rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+  width: 100%; 
+}
+
+h1 {
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+.navbar a {
+  color: #ffd05a;
+  text-decoration: none;
+}
+
+.nav-list{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.nav-list li {
+  display: inline;
+  font-size: 20px;
+  padding:10px;
+  line-height: 30px;
+}
+
+.nav-list a:hover {
+  color: white;
+}
+
+.nav-list a:active {
+  border: 0.2px white dotted;
+}
+
+
+.section1 {
+  min-height: calc(100vh - 12rem);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #55c0ec;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+.container--flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 300px;
+  flex-wrap: wrap;
+}
+
+.title_description {
+  text-align: center;
+  flex: 0 1 calc(50% - 2em);
+  margin: 1rem;
+  min-width: 300px;
+}
+  
+.title_img {
+  flex: 0 1 calc(50% - 2em);
+  margin: 1rem;
+  /* min-width: 300px; */
+  height: auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+
+
+.title_description h1 {
+  margin-bottom: 2rem;
+  font-size: 5rem;
+  line-height: 1;
+} 
+
+.title_description p{
+  margin-bottom: 2rem;
+  font-size: 1.675rem;
+  line-height: 1.25;
+  color: white;
+}
+
+.add-btn:hover {
+  background-color: #f2f2f2;
+}
+
+.add-btn {
+  background-color: white;
+  font-size: 1.675rem;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  color: black;
+  line-height: 1.25;
+}
+
+.section2 {
+  padding: 1rem;
+  
+  min-height: 50vh;  
+}
+.description_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+h3 {
+  margin: 1rem 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+  /* padding-bottom: 1rem; */
+}
+
+.grid-title {
+  grid-column: 1/3;
+}
+
+.grid-fill {
+  grid-column: -3/-1;
+}
+
+.page_features {
+  background-color: #90ddaa;
+  min-height: 50vh;
+  padding: 1rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 3fr;
+  column-gap: 30px;
+  row-gap: 20px;
+}
+
+.grid-feature-title {
+  grid-column: 1/4;
+  text-align: center;
+  margin: 1rem 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.ticket-section {
+  min-height: 50vh;
+  background-color: #f2f2f2;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  align-items: center;
+  max-width: 600px;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.add-slack-btn {
+  background-color: #40596b;
+  margin: 5rem auto;
+  font-size: 1.675rem;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  color: white;
+  line-height: 1.25;
+}
+
+footer {
+  background-color: #40596b;
+  position: relative;
+  padding: 1rem;
+}
+
+.footer_note {
+  text-align: center;
+  
+}
+
+.top-btn {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+}
+
+.footer_note p {
+  font-size: .825rem;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.ticket-section p {
+  /* margin-bottom: 1fr; */
+  margin-top: 0;
+}
+
+
+
+a:link {
+  text-decoration: none;
+}
+
+
+
