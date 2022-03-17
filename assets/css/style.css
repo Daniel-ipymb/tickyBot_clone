@@ -100,7 +100,16 @@ h3 {
   height: auto;
   max-width: 400px;
   width: 100%;
+  border: solid;
+  border-radius: 5px;
+  overflow: hidden;
 }
+
+.title_img img {
+  vertical-align: middle;
+}
+
+
 
 
 
@@ -170,6 +179,25 @@ h3 {
   grid-template-rows: 1fr 3fr;
   column-gap: 30px;
   row-gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #40596b;
+}
+
+.card_description {
+  background-color: #fafafa;
+  padding: 1em;
+  text-align: center;
+}
+
+.card img {
+  margin: 4rem 0;
+  width: 224px;
 }
 
 .grid-feature-title {
