@@ -138,6 +138,7 @@ h3 {
   
   min-height: 50vh;  
 }
+
 .description_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
